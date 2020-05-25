@@ -10,7 +10,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('lr_model.pkl', 'rb'))
+model = pickle.load(open('modelsvm2.pkl', 'rb'))
 
 
 @app.route('/')
